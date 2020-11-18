@@ -5,15 +5,32 @@ h3 {
 }
 
 h1 {
-    color: red;
+    color: rgb(247, 37, 133);
     font-family: 'Romanesco', cursive;
+    font-size: 100px;
   
 }
-.container { 
-    background-color:rgb(224, 255, 255);
-    border-radius: 5px;
-    padding:20px;
-   
+
+.jumbotron-fluid {
+  background:rgb(114, 9, 183) ;
+  text-align: center;
+ 
+
+}
+
+.lead {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+
+
+body {
+  background-color:rgb(58, 12, 163);
+  
+}
+img {
+  width: 100%;
+ 
 }
 
 #map-container-section {
@@ -37,15 +54,15 @@ h1 {
     display:flex;
     align-items: center;
     justify-content:center;
-    background-color:rgb(30, 144, 255) ;
-    border-top: 6px solid rgb(224, 255, 255);
+    background-color:rgb(114, 9, 183) ;
+    border-top: 6px solid rgb(247, 37, 133);
     margin-top: 20px;
    
   
 }
 
 #footer-text {
-    color: rgb(255, 51,51);
+    color:rgb(72, 149, 239);
     padding-top: 10px;
     text-align: center;
 }
