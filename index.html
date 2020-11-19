@@ -12,50 +12,35 @@
     
   </head>
 <body>
+ <style>
+  body {
+    background-image: url("./Assets/images/art.jpg");
+   
+  }
+  </style> 
 <!-- 
   <div class="icon-bar">
     <a href="https://www.linkedin.com/in/alice-piar-9a4a7a1a7" class="linkedin"><i class="fa fa-linkedin"></i></a>
 
   </div> -->
   <!--- Add a new JumboTrom-->
-  <div class="jumbotron jumbotron-fluid">
+   <div class="jumbotron jumbotron-fluid" >
     <div class="container">
       <h1 class="display-5">Alice Piar </h1>
       <p class="lead">Professional Web Developer Portfolio.</p>
     </div>
-  </div>
+  </div> 
 <!--Nav begin-->
-<div class="navigation"> 
-<ul>
-<li>
-  <a href="#">
-    <span class="icon">  </span>
-    <span class="title">Profile</span>
-  </a>
-</li>
-<li>
-  <a href="#">
-    <span class="icon"></span>
-    <span class="title">Portfolio</span>
-  </a>
-</li>
-<li>
-  <a href="#">
-    <span class="icon"></span>
-    <span class="title">Contact</span>
-  </a>
-</li>
-</ul>
-
-
-
-
-
-
-
-
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Experience</a>
+  <a href="#">Contact</a>
+  <a href="#">Skills</a>
+  <a href="#">Interests</a>
+  <a href="#">Portfolio</a>
 </div>
-  
+<span class="icon" onclick="openNav()">&#9776; Explore </span>
 
     <!-- /.Navbar -->
 <!-- <nav class="navbar navbar-light" style="background-color:rgb(224, 255, 255)"> 
@@ -92,8 +77,8 @@
     <div class="Coding">
 
       <!-- Missing an alt under the img src attributes-->
-     <img src="./Assets/images/ArtCoding.png" alt= "Art Code" >
- 
+     <!-- <img src="./Assets/images/art.jpg" alt= "Art Code" class="center"> -->
+  
   <!-- <div class="row">
    <div class="col-md-9">
     <img src="./Assets/Images/portfolio1.png" class="figure-img img-fluid rounded" alt="Image">
