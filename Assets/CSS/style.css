@@ -28,7 +28,7 @@ body {
   background-color:rgb(58, 12, 163);
   background-repeat: no-repeat;
   background-size: cover;
-  background:url('./Assets/images/art.jpg');
+  background:url('./Assets/images/code-brain.jpg');
   padding: 25px;
 }
 
@@ -129,6 +129,7 @@ input[type=submit]:hover {
   font-size:40px;
   cursor:pointer;
   margin-left: 800px;
+
   color: white;
  
 }
