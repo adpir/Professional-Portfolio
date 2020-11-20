@@ -1,66 +1,56 @@
-// (function($) {
-    
-//     let win = $(window);
-//     let w = win.width();
-    
-//     let body = $('body');
-//     let btn = $('#sidebarToggle');
-//     let sidebar = $('.sidebar');
-    
-//     // Collapse on load
-    
-//     if (win.width() < 992) {
-//         sidebar.addClass('collapsed');
-//     }
-    
-//     sidebar.removeClass('mobile-hid');
-    
-//     // Events
-    
-//     btn.click(toggleSidebar);
-    
-//     win.resize(function() {
-        
-//         if (w==win.width()) {
-//             return;
-//         }
-        
-//         w = win.width();
-        
-//         if (w < 992 && !sidebar.hasClass('collapsed')) {
-//             toggleSidebar();
-//         } else if (w > 992 && sidebar.hasClass('collapsed')) {
-//             toggleSidebar();
-//         }
-//     });
-    
-//     function toggleSidebar() { 
-        
-//         if (win.width() < 992 || !sidebar.hasClass('collapsed')) {
-//             body.animate({'padding-left':'0'},100);
-//         }
-//         else if (win.width() > 992 && sidebar.hasClass('collapsed')) {
-//             body.animate({'padding-left':'14rem'},100);
-//         }
-        
-//         if (!sidebar.hasClass('collapsed')) {
-//             sidebar.fadeOut(100,function(){
-//                 btn.hide();
-//                 sidebar.addClass('collapsed');
-//                 btn.fadeIn(100);
-//             });
-//         }
-//         else {
-//             sidebar.removeClass('collapsed');
-//             sidebar.fadeIn(100);
-//         }
-       
-//     }
-// })
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-  }
+/*!
+    * Start Bootstrap - Grayscale v6.0.3 (https://startbootstrap.com/theme/grayscale)
+    * Copyright 2013-2020 Start Bootstrap
+    * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
+    */
+   (function ($) {
+    "use strict"; // Start of use strict
+
+    // Smooth scrolling using jQuery easing
+    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
+        if (
+            location.pathname.replace(/^\//, "") ==
+                this.pathname.replace(/^\//, "") &&
+            location.hostname == this.hostname
+        ) {
+            var target = $(this.hash);
+            target = target.length
+                ? target
+                : $("[name=" + this.hash.slice(1) + "]");
+            if (target.length) {
+                $("html, body").animate(
+                    {
+                        scrollTop: target.offset().top - 70,
+                    },
+                    1000,
+                    "easeInOutExpo"
+                );
+                return false;
+            }
+        }
+    });
+
+    // Closes responsive menu when a scroll trigger link is clicked
+    $(".js-scroll-trigger").click(function () {
+        $(".navbar-collapse").collapse("hide");
+    });
+
+    // Activate scrollspy to add active class to navbar items on scroll
+    $("body").scrollspy({
+        target: "#mainNav",
+        offset: 100,
+    });
+
+    // Collapse Navbar
+    var navbarCollapse = function () {
+        if ($("#mainNav").offset().top > 100) {
+            $("#mainNav").addClass("navbar-shrink");
+        } else {
+            $("#mainNav").removeClass("navbar-shrink");
+        }
+    };
+    // Collapse now if page is not at top
+    navbarCollapse();
+    // Collapse the navbar when page is scrolled
+    $(window).scroll(navbarCollapse);
+})(jQuery); // End of use strict

@@ -1,111 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+    <head>
+        <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!-- Add Ajax -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
-    <title>Professional Portfolio</title>
-    
-  </head>
-<body>
- <style>
-  body {
-    background-image: url("./Assets/images/code-brain.jpg");
-   
-  }
-  </style> 
-<!-- 
-  <div class="icon-bar">
-    <a href="https://www.linkedin.com/in/alice-piar-9a4a7a1a7" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <title>Professional portfolio</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Interests">Interests</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav> 
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">Alice Piar</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Creative, Passionate, Designer, Leader and Web Developer.</h2>
+                    <a class="btn btn-primary js-scroll-trigger" href="#about">Explore</a>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-white mb-4">About Me</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Experience-->
+        <section class="projects-section bg-light" id="Experience">
+            <div class="container">
+                <!-- Featured Experience Row-->
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                   <!-- <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="Assets/images/bluebrain.png" alt="" /></div> -->
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Experience</h4>
+                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Porfolio One Row-->
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="" /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Password Generator</h4>
+                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Porfolio Two Row-->
+                <div class="row justify-content-center no-gutters">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="" /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Work Day Scheduler</h4>
+                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                  <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="" /></div>
+                  <div class="col-lg-6">
+                      <div class="bg-black text-center h-100 project">
+                          <div class="d-flex h-100">
+                              <div class="project-text w-100 my-auto text-center text-lg-left">
+                                  <h4 class="text-white">Weather Dashboard</h4>
+                                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                  <hr class="d-none d-lg-block mb-0 ml-0" />
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="" /></div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Multiple Quiz</h4>
+                                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                  <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="" /></div>
+                  <div class="col-lg-6">
+                      <div class="bg-black text-center h-100 project">
+                          <div class="d-flex h-100">
+                              <div class="project-text w-100 my-auto text-center text-lg-left">
+                                  <h4 class="text-white">Work Connections</h4>
+                                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                  <hr class="d-none d-lg-block mb-0 ml-0" />
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            </div>
+        </section>
+<!-- Project-->
 
-  </div> -->
-  <!--- Add a new JumboTrom-->
-   <div class="jumbotron jumbotron-fluid" >
-    <div class="container">
-      <h1 class="display-5">Alice Piar </h1>
-      <p class="lead">Professional Web Developer Portfolio.</p>
-    </div>
-  </div> 
-<!--Nav begin-->
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Experience</a>
-  <a href="#">Contact</a>
-  <a href="#">Skills</a>
-  <a href="#">Interests</a>
-  <a href="#">Portfolio</a>
-</div>
-<span class="icon" onclick="openNav()">&#9776; Explore </span>
-
-    <!-- /.Navbar -->
-<!-- <nav class="navbar navbar-light" style="background-color:rgb(224, 255, 255)"> 
-    <header>
-      <h3> Alice Piar</h3> 
-    </header>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-        </ul>
-      </div>
-   
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-        </li>
-      </ul>
-    </nav> -->
-<!-- End Nav -->
-   <br>
-    <br>
-    <br>
-    <br>
-
-
-    <div class="Coding">
-
-      <!-- Missing an alt under the img src attributes-->
-     <!-- <img src="./Assets/images/art.jpg" alt= "Art Code" class="center"> -->
-  
-  <!-- <div class="row">
-   <div class="col-md-9">
-    <img src="./Assets/Images/portfolio1.png" class="figure-img img-fluid rounded" alt="Image">
-  </div>
-    <figure class="figure">
-      
-      <div class= "col-sx-3">
-      <p> My name is Alice Piar, and I am from Puerto Rico. I moved to Minneapolis on 2010 to pursue a better life and better opportunies.</p>  
-        <p>I have an intensive theater background and I participated in different productions in MN and Puerto Rico. Currently, I am working on Outsell LLC  for over 5 years as Dealer Support Team Lead. </p>    
-        <p> The responsabilities of this job is to manage different dealerships accounts and make sure all the data is setup correctly. I am also  started studying Web Developer at the University of Minnesota. </p>
-   </div>
-  </figure> -->
-</div>
-
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
-<!--- Add Js script-->
-<script src="script.js"></script>
-<!---Add a Footer-->
-<div class="fixed-bottom"> </div>
-<footer class="footer">
-  <p id="footer-text">&copy; Copyright</p>
-</footer>
-
-</body>
+        <!-- Contact-->
+        <section class="contact-section" id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+                        <form class="form-inline d-flex">
+                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Enter email address..." />
+                            <button class="btn btn-primary mx-auto" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="contact-section bg-black">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Address</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50">+1 (555) 902-8832</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Your Website 2020</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
