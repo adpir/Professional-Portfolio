@@ -1,4 +1,4 @@
-# Professional Portfolio
+# Responsive Portfolio
 
 
 ## Description
@@ -7,7 +7,7 @@ The goal of this project is to create an useful and responsive mobile website. T
 
 The  Bootstrap application helps make sure to have a functional website. I  used the appropriate grid system (containers, rows, and columns).
 
-![image](./Assets/images/Portfolio.PNG)
+![image](./Assets/images/images.png)
 
 
 To have the right validation code in all my HTML pages I used this website: https://validator.w3.org/#validate_by_input
