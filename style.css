@@ -37,7 +37,7 @@ hr {
   overflow: visible;
 }
 
-h1, h2, h3, h4, h5, h6 {
+ h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -316,14 +316,14 @@ template {
   display: none !important;
 }
 
-h1, h2, h3, h4, h5, h6,
+ h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
 }
 
-h1, .h1 {
+ .h1 {
   font-size: 2.5rem;
 }
 
@@ -431,19 +431,20 @@ mark,
   content: "— ";
 }
 
-/* .img-fluid {
+.img-fluid {
   max-width: 100%;
   height: auto;
-} */
+} 
 
-.img-thumbnail {
-  padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
-  max-width: 100%;
+#img-thumbnail {
+  background-color:rgb(25, 42, 81);
+  border-radius:20px;
+  max-width: 40%;
+  margin: 20px;
   height: auto;
-}
+  float: left;
+
+} 
 
 .figure {
   display: inline-block;
@@ -459,38 +460,14 @@ mark,
   color: #6c757d;
 }
 
-code {
+/* code {
   font-size: 87.5%;
   color: #e83e8c;
   word-wrap: break-word;
-}
-a > code {
+} */
+/* a > code {
   color: inherit;
-}
-
-kbd {
-  padding: 0.2rem 0.4rem;
-  font-size: 87.5%;
-  color: #fff;
-  background-color: #212529;
-  border-radius: 0.2rem;
-}
-kbd kbd {
-  padding: 0;
-  font-size: 100%;
-  font-weight: 700;
-}
-
-pre {
-  display: block;
-  font-size: 87.5%;
-  color: #212529;
-}
-pre code {
-  font-size: inherit;
-  color: inherit;
-  word-break: normal;
-}
+} */
 
 .pre-scrollable {
   max-height: 340px;
@@ -7668,10 +7645,10 @@ button.bg-black:focus {
   margin-right: 1.5rem !important;
 }
 
-.mb-4,
+/* .mb-4,
 .my-4 {
   margin-bottom: 1.5rem !important;
-}
+} */
 
 .ml-4,
 .mx-4 {
@@ -10152,12 +10129,36 @@ body {
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Varela Round";
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
 }
+.about-me {
+  font-family: "Varela Round";
+  font-size: 50px;
+  position: relative;
+  bottom:150px;
+  margin-left:-45px ;
+  display:initial;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+ .assigments {
+  font-family: "Varela Round";
+  font-size: 60px;
+  position: relative;
+  bottom:200px;
+  float: right;
+  margin-block-end: -50px;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+ }
 
 .masthead {
   position: relative;
@@ -10186,20 +10187,39 @@ body {
   font-size: 1rem;
 }
 #about {
-  position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  min-height: 55rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("./Assets/Images/pinkbrain.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("./Assets/Images/2brainpinK.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 
 }
-
-
+ p {
+  color: rgba(248, 248, 249, 0.977);
+  font-size: 20px;
+  padding: 20px;
+  
+  display: inline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Portfolio{
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 50rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("./Assets/Images/3pinkbrain3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  text-align: center;
+}
+ 
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
@@ -10222,49 +10242,42 @@ body {
   }
 }
 
-.about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
-}
-.about-section p {
-  margin-bottom: 5rem;
-}
 
-.Experience-section {
+.Portfolio-section {
   padding: 10rem 0;
 }
-.Experience-section .featured-text {
+.Portfolio-section .featured-text {
   padding: 2rem;
 }
 @media (min-width: 992px) {
-  .Experience-section .featured-text {
+  .Portfolio-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
 }
-.Experience-section .Experience-text {
+.Portfolio-section .Portfolio-text {
   padding: 3rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
-  .Experience-section .Experience-text {
+  .Portfolio-section .Portfolio-text {
     padding: 5rem;
   }
-  .Experience-section .Experience-text hr {
+  .Portfolio-section .Portfolio-text hr {
     border-color: #64a19d;
     border-width: 0.25rem;
     width: 30%;
   }
 }
 
-/* .contact-section {
+ .contact-section {
   padding: 10rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-} */
+} 
 .contact-section .form-inline input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
