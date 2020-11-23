@@ -6765,32 +6765,28 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
-.about-me, .Skills{
-  font-family: "Varela Round";
-  font-size: 50px;
-  position: relative;
-  bottom:150px;
-  margin-left:-45px ;
-  display:initial;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-          background-clip: text;
-          
+.about-me {
+font-family: "Varela Round";
+font-size: 60px;
+min-height: 10rem;
+position: relative;
+text-align:center;
+ background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-clip: text;   
 }
  .assigments {
   font-family: "Varela Round";
   font-size: 60px;
   min-height: 10rem;
   position: relative;
-  bottom:150%;
-  float: right;
-  text-align: center;
-  margin-block-end: -50px;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  margin-right:-50px;
+   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;  
+
  }
  .h1 {
   
@@ -6828,7 +6824,7 @@ body {
 }
 .fa-check {
   color:rgb(126, 244, 255);
-margin-left:700px;
+  margin-left:700px;
  
 }
 
@@ -6874,14 +6870,15 @@ margin-left:700px;
   color: rgba(248, 248, 249, 0.977);
   font-size: 18px;
   padding: 8px;
-
   display: inline;
   text-align: justify;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #portfolio{
   width: 100%;
-  height:100%;
+  height: auto;
+  min-height: 2rem;
+  padding: 5rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("./Assets/Images/2halfbrain.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -6890,16 +6887,21 @@ margin-left:700px;
 }
 
 .img-fluid {
-  max-width: 60%;
-  margin-left: 55px;
- height:100%;
+   padding:20px;
+    height: 100%;
+    width:80%;
+    min-height: 5rem;
+    margin-left:25px;
+    float:left
+
 }
 
 .bg-black {
   background-color: rgb(25, 42, 81);
-  max-width: 100;
-  margin-right:55px;
-  
+  padding:20px;
+  max-width: 100%;
+  height: auto;
+   min-height: 5rem;
 }
 
 a.bg-black:hover, a.bg-black:focus,
@@ -6911,8 +6913,8 @@ button.bg-black:focus {
 #skills{
   width: 100%;
   height: auto;
-  min-height: 55rem;
-  padding: 15rem 0;
+  min-height: 10rem;
+  padding: 18rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("./Assets/Images/skills.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -6922,8 +6924,8 @@ button.bg-black:focus {
 #contact {
   width: 100%;
   height: auto;
-  min-height: 55rem;
-  padding: 15rem 0;
+  min-height: 18rem;
+  padding: 18rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("./Assets/Images/contact.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -6981,7 +6983,7 @@ button.bg-black:focus {
   } 
 
  .contact-section {
-  padding: 10rem 0;
+  padding: 30rem 0;
   background: linear-gradient(to bottom, rgb(25, 42, 81) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%);
   background-position: center;
   background-repeat: no-repeat;
@@ -6989,7 +6991,7 @@ button.bg-black:focus {
   background-size: cover;
 }
  .contact-section .form-inline input {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(124, 30, 30, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
   font-family: "Varela Round";
