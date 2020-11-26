@@ -6780,12 +6780,12 @@ background-clip: text;
   font-family: "Varela Round";
   font-size: 60px;
   min-height: 10rem;
-  position: relative;
-  margin-right:-50px;
+  text-align: center;
    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;  
+  
 
  }
  .h1 {
@@ -6884,13 +6884,14 @@ background-clip: text;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  
 }
 
 .img-fluid {
-   padding:20px;
+    padding:18px;
     height: 100%;
     width:80%;
-    min-height: 5rem;
+    min-height: 10rem;
     margin-left:25px;
     float:left
 
@@ -7014,4 +7015,4 @@ button.bg-black:focus {
   padding:40px;
   width: 100%;
   margin:auto;
-}}
+}
