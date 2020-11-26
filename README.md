@@ -14,7 +14,7 @@ The  Bootstrap application helps make sure to have a functional website. I  used
 ![image](./Assets/Images/html2.png)
 ![image](./Assets/Images/html.png)
 
-To have the right validation code in all my HTML pages I used this website: [images]://validator.w3.org/#validate_by_input
+To have the right validation code in all my HTML pages I used this website: https://validator.w3.org
 
 ### Badges:
 ![Language](https://img.shields.io/badge/Languages-HTML,CSS,Jquery-blueviolet.svg)<br>
