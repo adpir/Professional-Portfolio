@@ -6956,32 +6956,6 @@ button.bg-black:focus {
   }
 }
 
-.portfolio-section {
-  padding: 10rem 0;
-}
-.portfolio-section .featured-text {
-  padding: 2rem;
-}
-@media (min-width: 992px) {
-  .portfolio-section .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
-  }
-}
-.portfolio-section .portfolio-text {
-  padding: 3rem;
-  font-size: 90%;
-}
-@media (min-width: 992px) {
-  .portfolio-section .portfolio-text {
-    padding: 5rem;
-  }
-
-  .portfolio-section .portfolio-text hr {
-    border-width: 0.25rem;
-
-  } 
-
  .contact-section {
   padding: 30rem 0;
   background: linear-gradient(to bottom, rgb(25, 42, 81) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%);
