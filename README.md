@@ -4,9 +4,9 @@
 
 ## Description:
 
-Welcome to my portfolio. The goal of this project is to create an useful and responsive website. To create a mobile website, we need to utilize the Boostrap applications and incorporate different CSS elements.
+Welcome to this portfolio. The goal of this project is to create a useful and responsive website. To create a mobile website, we need to utilize the Boostrap applications and incorporate different CSS elements.
 
-The  Bootstrap application helps make sure to have a functional website. I  used the appropriate grid system (containers, rows, and columns).
+The  Bootstrap application helps make sure to have a functional website. This creative portfolio website contains different links where the user can access different sections of the page. 
 
 ### Visuals:
 
