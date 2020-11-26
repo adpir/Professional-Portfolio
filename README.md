@@ -27,8 +27,6 @@ The installation I used to make sure the development environment is running effi
 
 * Terminal
 * Visual Studio Code
-
-![Deploy](https://img.shields.io/badge/Deploy-Pages-blueviolet.svg)<br>
 * [GitHub]([images]://github.com/adpir/Professional-Portfolio)
 * [GitHubPages]([images]://adpir.github.io/Professional-Portfolio)
 * Git Lab
