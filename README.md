@@ -27,8 +27,8 @@ The installation I used to make sure the development environment is running effi
 
 * Terminal
 * Visual Studio Code
-* [GitHub]([images]://github.com/adpir/Professional-Portfolio)
-* [GitHubPages]([images]://adpir.github.io/Professional-Portfolio)
+* [GitHub](https://github.com/adpir/Professional-Portfolio)
+* [GitHubPages](https://adpir.github.io/Professional-Portfolio)
 * Git Lab
 
 
